@@ -1,0 +1,12 @@
+/* Ensure the Inter font is included, as used in the JSX <style> block */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Apply font globally */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* src/index.css or src/App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
